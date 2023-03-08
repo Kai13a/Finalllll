@@ -151,7 +151,7 @@ public class MainActivity4 extends AppCompatActivity implements View.OnClickList
                         Toast.makeText(MainActivity4.this,"Registered Successfully", Toast.LENGTH_LONG).show();
                         progressBar.setVisibility(View.GONE);
                         //DITO MAGLALAGAY NUNG PART 2 PLUS TATANGGALIN YUNG USER HAS BEEN REGISTERED SUCCESSFULLY
-                        startActivity(new Intent(MainActivity4.this,MainActivity.class));
+                        startActivity(new Intent(MainActivity4.this,Employee_Profile.class));
 
                     }else{
                         Toast.makeText(MainActivity4.this, "Fail to register! Try Again", Toast.LENGTH_LONG).show();

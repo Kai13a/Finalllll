@@ -32,10 +32,6 @@ Button Faculty,Employee,Admin;
     public void onClick(View view) {
         switch (view.getId()){
 
-            case R.id.Faculty_Role:
-                startActivity(new Intent(this,Faculty_Profile.class));
-                break;
-
             case R.id.Employee_Role:
                 startActivity(new Intent(this,Employee_Profile.class));
                 break;

@@ -94,21 +94,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/change_profile_btn" />
 
-    <Button
-        android:id="@+id/employee_services_btn"
-        android:layout_width="410dp"
-        android:layout_height="wrap_content"
-        android:background="#00FFFFFF"
-        android:gravity="left"
-        android:text="               SERVICES"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:backgroundTint="#008F2222"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employee_schedule_btn" />
-
     <ImageView
         android:id="@+id/employee_profile_arrow"
         android:layout_width="60dp"
@@ -118,17 +103,6 @@
         app:layout_constraintEnd_toEndOf="@+id/employee_profile_btn"
         app:layout_constraintTop_toTopOf="@+id/employee_profile_btn"
         app:layout_constraintVertical_bias="0.555"
-        app:srcCompat="@drawable/arrow" />
-
-    <ImageView
-        android:id="@+id/employee_services_arrow"
-        android:layout_width="60dp"
-        android:layout_height="30dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/employee_services_btn"
-        app:layout_constraintEnd_toEndOf="@+id/employee_services_btn"
-        app:layout_constraintTop_toBottomOf="@+id/employee_schedule_btn"
-        app:layout_constraintVertical_bias="0.611"
         app:srcCompat="@drawable/arrow" />
 
     <Button
@@ -144,7 +118,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employee_services_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/employee_schedule_btn" />
 
     <ImageButton
         android:id="@+id/employee_schedule_icon"
@@ -188,19 +162,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employee_profile_btn" />
 
-    <ImageButton
-        android:id="@+id/employee_services_icon"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/employee_services_btn"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employee_schedule_btn"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/services"
-        tools:ignore="SpeakableTextPresentCheck" />
-
     <ImageView
         android:id="@+id/employee_about_arrow"
         android:layout_width="60dp"
@@ -209,8 +170,6 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/employee_about_btn"
         app:layout_constraintEnd_toEndOf="@+id/employee_about_btn"
-        app:layout_constraintTop_toBottomOf="@+id/employee_services_btn"
-        app:layout_constraintVertical_bias="0.8"
         app:srcCompat="@drawable/arrow" />
 
     <ImageButton
@@ -221,8 +180,6 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/employee_about_btn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employee_services_btn"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/about_us"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -238,5 +195,20 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/tao_icon"
         tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        app:backgroundTint="#d9534f"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logout"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -49,21 +49,6 @@
             android:name=".MainActivity4"
             android:exported="false" />
         <activity
-            android:name=".Faculty_Logbook_Tab"
-            android:exported="false" />
-        <activity
-            android:name=".Faculty_About_Tab"
-            android:exported="false" />
-        <activity
-            android:name=".Faculty_Services_Tab"
-            android:exported="false" />
-        <activity
-            android:name=".Faculty_Schedule_Tab"
-            android:exported="false" />
-        <activity
-            android:name=".Faculty_Profile_Tab"
-            android:exported="false" />
-        <activity
             android:name=".Employee_About_Tab"
             android:exported="false" />
         <activity
@@ -71,12 +56,6 @@
             android:exported="false" />
         <activity
             android:name=".Employee_Profile_Tab"
-            android:exported="false" />
-        <activity
-            android:name=".Employee_Services_Tab"
-            android:exported="false" />
-        <activity
-            android:name=".Faculty_Profile"
             android:exported="false" />
         <activity
             android:name=".Employee_Profile"

@@ -17,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -34,12 +35,13 @@ import java.util.HashMap;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Employee_Profile extends AppCompatActivity implements View.OnClickListener {
-    Button e_btn_ser,e_btn_prof,e_btn_sched,e_btn_about;
+    Button e_btn_prof,e_btn_sched,e_btn_about;
 
     private CircleImageView profileImageView;
     private Button closeButton, saveButton;
     private TextView profileChangeBtn;
 
+    FloatingActionButton logout;
     private DatabaseReference databaseReference;
     private FirebaseAuth mAuth;
 
@@ -54,8 +56,6 @@ public class Employee_Profile extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_employee_profile);
 
-        e_btn_ser = findViewById(R.id.employee_services_btn);
-        e_btn_ser.setOnClickListener(this);
         e_btn_prof = findViewById(R.id.employee_profile_btn);
         e_btn_prof.setOnClickListener(this);
         e_btn_sched = findViewById(R.id.employee_schedule_btn);
@@ -182,9 +182,6 @@ public class Employee_Profile extends AppCompatActivity implements View.OnClickL
     public void onClick(View view) {
         switch (view.getId()){
             //EMPLOYEE
-            case R.id.employee_services_btn:
-                startActivity(new Intent(this,Employee_Services_Tab.class));
-                break;
             case R.id.employee_profile_btn:
                 startActivity(new Intent(this,Employee_Profile_Tab.class));
                 break;
@@ -198,5 +195,12 @@ public class Employee_Profile extends AppCompatActivity implements View.OnClickL
 
 
         }
+    }
+
+    private void logoutUser() {
+        Intent mainActivity = new Intent(Employee_Profile.this, MainActivity.class);
+        mainActivity.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(mainActivity);
+        finish();
     }
 }
