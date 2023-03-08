@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Finalllll</string>
+    <string name="gender">Gender</string>
+    <string name="civil_status">Civil Status</string>
+    <string name="request_employee">Request</string>
+    <string name="request_faculty">Request</string>
+    <string name="pt_ft">Part-Time or Full-Time</string>
+    <string name="role">Role</string>
+    <string name="campus">Campus</string>
+    <string name="role_job">Job</string>
+</resources>

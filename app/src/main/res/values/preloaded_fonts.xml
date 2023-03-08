@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/lora</item>
+        <item>@font/lora_bold</item>
+        <item>@font/lora_bold_italic</item>
+        <item>@font/merriweather_bold</item>
+        <item>@font/merriweather_light</item>
+    </array>
+</resources>

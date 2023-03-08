@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/drawable/box_registration.xml" value="0.238" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/drawable/box_stroke.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/drawable/gray_box.xml" value="0.239" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/drawable/gray_solid.xml" value="0.238" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/drawable/ic_launcher_background.xml" value="0.239" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/drawable/pbar_box.xml" value="0.238" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/drawable/textbox_border.xml" value="0.158" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/font/lora_bold.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/font/merriweather_bold.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/font/merriweather_light.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_admin_employee_tab.xml" value="0.1" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_admin_profile.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_admin_profile_tab.xml" value="0.2857142857142857" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_employee_about_tab.xml" value="0.2328125" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_employee_profile.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_employee_profile_tab.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_employee_schedule_tab.xml" value="0.2328125" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_employee_services_tab.xml" value="0.199203187250996" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_faculty_about_tab.xml" value="0.2328125" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_faculty_logbook_tab.xml" value="0.2328125" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_faculty_profile.xml" value="0.2857142857142857" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_faculty_profile_tab.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_faculty_schedule_tab.xml" value="0.2328125" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_faculty_services_tab.xml" value="0.22871376811594202" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_main.xml" value="0.5714285714285714" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_main2.xml" value="0.2857142857142857" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_main3.xml" value="0.3828571428571429" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_main4.xml" value="0.37003311258278143" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_main5.xml" value="0.3828571428571429" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_main_activity3_updated.xml" value="0.2328125" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_main_menu.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/activity_register_user.xml" value="0.29760319573901467" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/box_register.xml" value="0.23177083333333334" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/gender_drop.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/Kyle Andrei Bagos/AndroidStudioProjects/Finalllll/app/src/main/res/layout/list_items.xml" value="0.2706812652068126" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2033514492753623" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
