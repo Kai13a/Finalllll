@@ -35,6 +35,7 @@ public class Register_User extends AppCompatActivity implements View.OnClickList
 
     ArrayAdapter<String> adapterItems;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,7 +63,7 @@ public class Register_User extends AppCompatActivity implements View.OnClickList
 
         progressBar = findViewById(R.id.progressBar);
 
-        autoCompleteTxtGender = findViewById(R.id.request_employee);
+        autoCompleteTxtGender = findViewById(R.id.gender);
         autoCompleteTextViewCivil = findViewById(R.id.civil_status);
 
 

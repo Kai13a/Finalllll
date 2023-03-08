@@ -19,7 +19,7 @@ public class Employee_Services_Tab extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_employee_services_tab);
 
-        autoCompleteTxtRequest_E = findViewById(R.id.request_employee);
+        autoCompleteTxtRequest_E = findViewById(R.id.gender);
 
         adapterItems = new ArrayAdapter<String>(this,R.layout.list_items,request_employee);
         autoCompleteTxtRequest_E.setAdapter(adapterItems);
