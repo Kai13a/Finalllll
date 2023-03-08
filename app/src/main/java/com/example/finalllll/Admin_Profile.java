@@ -55,8 +55,6 @@ public class Admin_Profile extends AppCompatActivity {
             }
         });
 
-        txtName = findViewById(R.id.txtName);
-        txtName.setText(GlobalVar.currentUser.firstname());
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     AutoCompleteTextView a;
 
+    String Admin_Email = "admin123";
+    String Admin_Pass = "pass123";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,7 +81,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         String email = edtEmail.getText().toString();
                         String password = edtPassword.getText().toString();
 
+
+                        //if (email == "admin123" && password == "password123"){
+
+                        //    startActivity(new Intent(MainActivity.this,Admin_Profile.class));
+                        //    Toast.makeText(MainActivity.this,"Welcome Admin", Toast.LENGTH_LONG).show();
+
+                        //}
+
+
+
+
+
                         signin(email,password);
+
 
 
                     }
@@ -98,6 +113,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (TextUtils.isEmpty(password)){
             Toast.makeText(this, "Please enter your Password", Toast.LENGTH_SHORT).show();
         }
+
+        if (email.equals(Admin_Email) && password.equals(Admin_Pass)){
+            Toast.makeText(this, "HEHEHEHHEHE", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(MainActivity.this,Admin_Profile.class));
+
+        }
+
         else{
             loadingBar.setTitle("Sign In");
             loadingBar.setMessage("Please wait..");
